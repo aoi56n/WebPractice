@@ -24,18 +24,28 @@
 	height:50px;
 	background:#09f;
 	/*ブロックレベル要素に変える*/
+	display:block;
 	text-decoration:none;
 	/*テキストを左右中央揃えにする*/
+	text-decoration:none;
 	/*テキストを上下中央揃えにする*/
+	text-align:center;
+	line-height:50px;
 	/*Transformプロパティに対しトランジション効果をかける（-webkit-あり）*/
+	-webkit-transition-property:transform;
 	/*Transformプロパティに対しトランジション効果をかける（-webkit-なし）*/
+	transition-property:transform;
 	/*トランジション効果を0.2秒に設定（-webkit-あり）*/
+	-webkit-transition-duration:0.2s;
 	/*トランジション効果を0.2秒に設定（-webkit-なし）*/
+	transition-duration:0.2s;
 }
 #global_navi ul li a:link{
 	color:#fff;
 }
 #global_navi ul li a:hover{
 	/*サイズを1.5倍にする（-webkit-あり）*/
+	-webkit-transform: scale(1.5);
 	/*サイズを1.5倍にする（-webkit-なし）*/
+	transform: scale(1.5);
 }
